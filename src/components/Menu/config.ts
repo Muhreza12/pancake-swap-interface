@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://pancakeswap.finance/',
+    href: 'https://rezabscsniper.netlify.app/#/swap',
   },
   {
     label: 'Trade',
@@ -21,6 +21,7 @@ const config: MenuEntry[] = [
       },
     ],
   },
-  {
   
-export default config
+  ] 
+
+    export default config
