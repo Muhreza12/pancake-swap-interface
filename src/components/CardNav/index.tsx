@@ -13,16 +13,16 @@ function Nav({ activeIndex = 0 }: { activeIndex?: number }) {
   return (
     <StyledNav>
       <ButtonMenu activeIndex={activeIndex} scale="sm" variant="subtle">
-        <ButtonMenuItem id="Reza-nav-link" to="/Reza" as={Link}>
-          {TranslateString(1142, 'Swap')}
+        <ButtonMenuItem id="swap-nav-link" to="/swap" as={Link}>
+          {TranslateString(1142, 'Reza')}
         </ButtonMenuItem>
         <ButtonMenuItem id="pool-nav-link" to="/pool" as={Link}>
-          {TranslateString(262, 'Liquidity')}
+          {TranslateString(262, 'Ikhsan')}
         </ButtonMenuItem>
         <ButtonMenuItem
           id="pool-nav-link"
           as="a"
-          href="https://www.binance.org/en/bridge?utm_source=PancakeSwap"
+          href="https://www.binance.org/en/Fadila?utm_source=PancakeSwap"
           target="_blank"
           rel="noreferrer noopener"
         >
