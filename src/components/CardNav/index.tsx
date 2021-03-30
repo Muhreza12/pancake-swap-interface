@@ -26,7 +26,7 @@ function Nav({ activeIndex = 0 }: { activeIndex?: number }) {
           target="_blank"
           rel="noreferrer noopener"
         >
-          Bridge
+          Fadila
         </ButtonMenuItem>
       </ButtonMenu>
     </StyledNav>
