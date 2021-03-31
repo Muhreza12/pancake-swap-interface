@@ -1004,14 +1004,6 @@
       "logoURI": "https://exchange.pancakeswap.finance/images/coins/0x5986d5c77c65e5801a5caa4fae80089f870a71da.png"
     },
     {
-      "name": "GLOBALFLOW",
-      "symbol": "gFLOW",
-      "address": "0x30c98768fb3f97539fe3ed6275cf74c80322dbdb",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F8%2F8b%2FArya.alun.alun.banjar.pataruman.jpg&imgrefurl=https%3A%2F%2Fid.wikipedia.org%2Fwiki%2FKota_Banjar&tbnid=y0DOFLfzn20syM&vet=12ahUKEwjUpd6i1drvAhXOsksFHTOsBA4QMygAegUIARCkAQ..i&docid=2T5dKBUbTInchM&w=2560&h=1920&q=BANJAR&safe=strict&ved=2ahUKEwjUpd6i1drvAhXOsksFHTOsBA4QMygAegUIARCkAQ"
-    },
-    {
       "name": "Unitrade",
       "symbol": "TRADE",
       "address": "0x7af173f350d916358af3e218bdf2178494beb748",
