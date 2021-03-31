@@ -24,12 +24,13 @@ function TradeSummary({ trade, allowedSlippage }: { trade: Trade; allowedSlippag
         <RowBetween>
           <RowFixed>
             <Text fontSize="14px">
-              {isExactIn ? TranslateString(1210, 'Minimum received') : TranslateString(220, 'Maximum sold')}
+              {isExactIn ? TranslateString(1210, 'Minimum diterima') : TranslateString(220, 'Minimum Jual')}
             </Text>
             <QuestionHelper
               text={TranslateString(
                 202,
-                'Your transaction will revert if there is a large, unfavorable price movement before it is confirmed.'
+                '
+                Transaksi Anda akan dikembalikan jika ada pergerakan harga yang besar dan tidak menguntungkan sebelum dikonfirmasi.'
               )}
             />
           </RowFixed>
@@ -45,11 +46,11 @@ function TradeSummary({ trade, allowedSlippage }: { trade: Trade; allowedSlippag
         </RowBetween>
         <RowBetween>
           <RowFixed>
-            <Text fontSize='14px'>{TranslateString(226, 'Price Impact')}</Text>
+            <Text fontSize='14px'>{TranslateString(226, 'Dampak Harga')}</Text>
             <QuestionHelper
               text={TranslateString(
                 224,
-                'The difference between the market price and estimated price due to trade size.'
+                'Selisih antara harga pasar dan perkiraan harga karena ukuran perdagangan.'
               )}
             />
           </RowFixed>
@@ -58,7 +59,7 @@ function TradeSummary({ trade, allowedSlippage }: { trade: Trade; allowedSlippag
 
         <RowBetween>
           <RowFixed>
-            <Text fontSize="14px">{TranslateString(228, 'Liquidity Provider Fee')}</Text>
+            <Text fontSize="14px">{TranslateString(228, 'Biaya Penyedia Likuiditas')}</Text>
             <QuestionHelper
               text={TranslateString(
                 230,
