@@ -1004,9 +1004,9 @@
       "logoURI": "https://exchange.pancakeswap.finance/images/coins/0x5986d5c77c65e5801a5caa4fae80089f870a71da.png"
     },
     {
-      "name": "bBADGER",
-      "symbol": "bBADGER",
-      "address": "0x1f7216fdb338247512ec99715587bb97bbf96eae",
+      "name": "GLOBALFLOW",
+      "symbol": "gFLOW",
+      "address": "0x30c98768fb3f97539fe3ed6275cf74c80322dbdb",
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://exchange.pancakeswap.finance/images/coins/0x1f7216fdb338247512ec99715587bb97bbf96eae.png"
