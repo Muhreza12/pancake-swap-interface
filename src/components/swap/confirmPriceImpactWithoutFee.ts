@@ -10,16 +10,16 @@ export default function confirmPriceImpactWithoutFee(priceImpactWithoutFee: Perc
   if (!priceImpactWithoutFee.lessThan(PRICE_IMPACT_WITHOUT_FEE_CONFIRM_MIN)) {
     return (
       window.prompt(
-        `This swap has a price impact of at least ${PRICE_IMPACT_WITHOUT_FEE_CONFIRM_MIN.toFixed(
+        `Swap ini setidaknya memiliki dampak harga ${PRICE_IMPACT_WITHOUT_FEE_CONFIRM_MIN.toFixed(
           0
-        )}%. Please type the word "confirm" to continue with this swap.`
-      ) === 'confirm'
+        )}%. Ketik kata "Reza" untuk melanjutkan pertukaran ini.`
+      ) === 'Reza'
     )
   } if (!priceImpactWithoutFee.lessThan(ALLOWED_PRICE_IMPACT_HIGH)) {
     return window.confirm(
-      `This swap has a price impact of at least ${ALLOWED_PRICE_IMPACT_HIGH.toFixed(
+      `Swap ini setidaknya memiliki dampak harga ${ALLOWED_PRICE_IMPACT_HIGH.toFixed(
         0
-      )}%. Please confirm that you would like to continue with this swap.`
+      )}%. Harap konfirmasikan bahwa Anda ingin melanjutkan pertukaran ini.`
     )
   }
   return true
